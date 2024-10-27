@@ -40,9 +40,17 @@ Section:NewButton("infinity yield", "ButtonInfo", function()
 end)
 
 
+local Tab = Window:NewTab("mm2")
 
+local Section = Tab:NewSection("mm2 scripts")
 
+Section:NewButton("eclipse(auto farm)", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
 
+Section:NewButton("auto farm gui", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoCapital2/MM2Autofarm/main/script"))() 
+end)
 
 
 
