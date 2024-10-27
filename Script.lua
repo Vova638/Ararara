@@ -5,7 +5,7 @@ local Window = Library.CreateLib("Bengal cat hub", "RJTheme3")
 
 local Tab = Window:NewTab("main")
 
-local Section = Tab:NewSection("name section")
+local Section = Tab:NewSection("main")
 
 
 Section:NewButton("ButtonText", "ButtonInfo", function()
@@ -48,13 +48,18 @@ Section:NewButton("eclipse(auto farm)", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
 end)
 
-Section:NewButton("auto farm gui", "ButtonInfo", function()
+Section:NewButton("auto farm gui)", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NoCapital2/MM2Autofarm/main/script"))() 
 end)
 
 
+local Tab = Window:NewTab("a dusty trip")
 
+local Section = Tab:NewSection("a dusty trip scripts")
 
+Section:NewButton("a dusty trip", "ButtonInfo", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/a-dusty-trip-ROCKET-very-op-script-12870"))()
+end)
 
 
 
