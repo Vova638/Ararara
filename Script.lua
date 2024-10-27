@@ -8,9 +8,15 @@ local Tab = Window:NewTab("main")
 local Section = Tab:NewSection("main")
 
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
-    print("Clicked")
+Section:NewButton("ESP", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vova638/Esp.lua/refs/heads/main/Esp.lua"))()
 end)
+
+
+Section:NewButton("InfJump", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Vova638/Ararara/refs/heads/main/Infjump.lua"))()
+end)
+
 
 
 Section:NewSlider("SpeedWalk", "SliderInfo", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
@@ -23,11 +29,6 @@ end)
 
 Section:NewSlider("Gravity", "Sliderinfo", 200, 30, function(y) 
 game.Workspace.Gravity = y
-end)
-
-
-Section:NewButton("esp(leave for disable)", "ButtonInfo", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP'))()
 end)
 
 
@@ -62,9 +63,12 @@ loadstring(game:HttpGet("https://scriptblox.com/raw/a-dusty-trip-ROCKET-very-op-
 end)
 
 
+local Tab = Window:NewTab("doors")
 
+local Section = Tab:NewSection("doors scripts")
 
-
-
+Section:NewButton("doors", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/DoorsV3_ByNerd.lua"))()
+end)
 
 
