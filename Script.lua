@@ -9,7 +9,7 @@ local Section = Tab:NewSection("main")
 
 
 Section:NewButton("ESP", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vova638/Esp.lua/refs/heads/main/Esp.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Vova638/Esp.lua/refs/heads/main/Esp.lua"))()
 end)
 
 
