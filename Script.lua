@@ -50,7 +50,7 @@ Section:NewButton("eclipse(auto farm)", "ButtonInfo", function()
 end)
 
 Section:NewButton("auto farm gui)", "ButtonInfo", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NoCapital2/MM2Autofarm/main/script"))() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoCapital2/MM2Autofarm/main/script"))() 
 end)
 
 
@@ -59,7 +59,7 @@ local Tab = Window:NewTab("a dusty trip")
 local Section = Tab:NewSection("a dusty trip scripts")
 
 Section:NewButton("a dusty trip", "ButtonInfo", function()
-loadstring(game:HttpGet("https://scriptblox.com/raw/a-dusty-trip-ROCKET-very-op-script-12870"))()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/a-dusty-trip-ROCKET-very-op-script-12870"))()
 end)
 
 
@@ -68,7 +68,20 @@ local Tab = Window:NewTab("doors")
 local Section = Tab:NewSection("doors scripts")
 
 Section:NewButton("doors", "ButtonInfo", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/DoorsV3_ByNerd.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/DoorsV3_ByNerd.lua"))()
 end)
 
+
+local Tab = Window:NewTab("blox fruits")
+
+local Section = Tab:NewSection("blox fruit scripts")
+
+Section:NewButton("speed hub x", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+end)
+
+
+local Tab = Window:NewTab("Soon...")
+
+local Section = Tab:NewSection("Soon...")
 
